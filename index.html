@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aromartine · web se chystá</title>
+<meta name="description" content="Aromartine je aromaterapie pro vyždímané ženy, po malých krocích, které zvládneš, i když nemůžeš. Web právě připravuji.">
+<meta property="og:title" content="Aromartine · web se chystá">
+<meta property="og:description" content="Aromaterapie pro vyždímané ženy, po malých krocích. Web právě připravuji.">
+<meta property="og:url" content="https://www.aromartine.cz/">
+<meta name="theme-color" content="#2F3563">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Cormorant+SC:wght@600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --nocni:#2F3563; --kopretina:#ECE8E3; --pampeliska:#F9DC5C; --chrpa:#7780BA; --mesic:#DFE0EE;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    background:var(--nocni);
+    background-image:radial-gradient(ellipse at 50% 0%, rgba(119,128,186,.35), transparent 65%);
+    color:var(--kopretina);
+    font-family:'Cormorant Garamond', Georgia, serif;
+    font-size:19px; line-height:1.6;
+    display:flex; flex-direction:column; min-height:100vh;
+  }
+  main{
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:56px 20px 40px; max-width:620px; margin:0 auto;
+  }
+  .pecet{width:210px; height:210px; margin-bottom:34px}
+  .znacka{
+    font-family:'Cormorant SC', Georgia, serif; font-weight:600;
+    letter-spacing:.32em; font-size:15px; color:var(--mesic); margin-bottom:34px; padding-left:.32em;
+  }
+  h1{font-weight:600; font-size:clamp(32px, 7vw, 46px); line-height:1.15; margin-bottom:22px}
+  p{margin-bottom:16px; color:var(--mesic)}
+  .veta{font-style:italic; font-size:23px; color:var(--kopretina); margin:12px 0 30px}
+  .tlacitko{
+    display:inline-block; background:var(--pampeliska); color:var(--nocni);
+    font-family:inherit; font-weight:600; font-size:19px; text-decoration:none;
+    padding:13px 30px; border-radius:14px; transition:transform .15s ease;
+  }
+  .tlacitko:hover,.tlacitko:focus-visible{transform:translateY(-2px)}
+  .tlacitko:focus-visible{outline:2px solid var(--kopretina); outline-offset:4px}
+  .pod{font-size:16px; margin-top:14px; color:var(--chrpa)}
+  .pod a{color:var(--mesic)}
+  footer{text-align:center; font-size:15px; color:var(--chrpa); padding:24px 20px 28px}
+</style>
+</head>
+<body>
+<main>
+  <!-- Logo R4 Pečeť s nápisem, původní verze z vzhled-znacky/logo/R4-pecet-s-napisem.svg -->
+  <svg class="pecet" viewBox="-50 -103 350 350" role="img" aria-label="Aromartine">
+    <defs><path id="kruh" d="M125 -64 a136 136 0 1 1 -0.1 0"/></defs>
+    <circle cx="125" cy="72" r="158" fill="none" stroke="#ECE8E3" stroke-width="2.4"/>
+    <circle cx="125" cy="72" r="116" fill="none" stroke="#ECE8E3" stroke-width="1.2"/>
+    <text font-family="'Cormorant SC', serif" font-weight="600" font-size="21" fill="#ECE8E3" letter-spacing="3"><textPath href="#kruh" textLength="845" lengthAdjust="spacing">AROMARTINE ✦ AROMATERAPIE PO MALÝCH KROCÍCH ✦</textPath></text>
+    <g transform="translate(125 72) scale(.66) translate(-125 -72)">
+      <text x="0" y="118" font-family="'Pinyon Script', cursive" font-size="175" fill="#ECE8E3">A</text>
+      <text x="105.9" y="112" font-family="'Pinyon Script', cursive" font-size="115" fill="#ECE8E3">M</text>
+    </g>
+  </svg>
+
+  <h1>Tady se pro tebe něco chystá</h1>
+  <p>Na webu teď pracuju a brzy tady bude.</p>
+  <p>Bude to místo pro ženy, které jsou vyždímané až do morku kostí a na další třicetidenní výzvu nemají ani pomyšlení. Žádné rituály na hodinu. Kapka éterického oleje, jeden nádech a dvě minuty pro sebe.</p>
+  <p class="veta">Tohle zvládneš, i když nemůžeš.</p>
+</main>
+<footer>© 2026 Aromartine</footer>
+</body>
+</html>
